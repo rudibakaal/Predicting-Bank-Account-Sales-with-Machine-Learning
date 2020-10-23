@@ -6,7 +6,7 @@ This 45,210 entried dataset is related with direct marketing campaigns (phone ca
 
 As the variables are multivariate in nature[2], one hot encoding of categorical features and the binary label were implemented with pandas cat.codes and sklearn LabelEncoder classes, respectively. All features were also standardised via sklearn's StandardScaler class. 
 
-## NN Topology and Results Summary
+## Neural Network Topology and Results Summary
 
 The binary-crossentropy loss function was leveraged along with the Adagrad optimizer for this classification problem.
 
