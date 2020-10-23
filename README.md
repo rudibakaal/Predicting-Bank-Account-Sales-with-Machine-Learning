@@ -2,7 +2,7 @@
 
 ## Motivation
 
-This dataset contains 45,210 entries related to direct marketing campaigns (phone calls) of a Portuguese banking institution. The classification goal is to predict if the client will subscribe a term deposit (variable y)[1].
+This dataset is related to direct marketing campaigns (phone calls) of a Portuguese banking institution. The classification goal is to predict if the client will subscribe a term deposit (variable y)[1].
 
 On account of their multivariate nature[2], one hot encoding of categorical features and the binary label was implemented with pandas cat.codes and sklearn LabelEncoder classes, respectively. All features were also standardised via sklearn's StandardScaler class. 
 
