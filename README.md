@@ -13,6 +13,7 @@ The binary-crossentropy loss function was leveraged along with the Adagrad optim
 
 ![model](https://user-images.githubusercontent.com/48378196/96961401-4be81500-1550-11eb-9cd2-4e0f682c3b56.png)
 
+The binary classifier accurately predicts ~90% of outbound call sales outcomes 
 
 ![results](https://user-images.githubusercontent.com/48378196/96961083-aa60c380-154f-11eb-90d8-453a87595713.png)
 
