@@ -55,7 +55,7 @@ model.compile(optimizer='Adagrad', loss='binary_crossentropy',
 
 history = model.fit(train_features, train_label, epochs=10, validation_split=0.7)
 
-val_acc = np.mean(history.history['val_binary_accuracy'])
+metrics = np.mean(history.history['val_binary_accuracy'])
 results = model.evaluate(train_features, train_label)
 print('\nLoss, Binary_accuracy: \n',(results))
 
