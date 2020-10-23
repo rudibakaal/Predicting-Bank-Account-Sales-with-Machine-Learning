@@ -4,7 +4,7 @@
 
 The data is related with direct marketing campaigns (phone calls) of a Portuguese banking institution. The classification goal is to predict if the client will subscribe a term deposit (variable y)[1].
 
-As the variables are multivariate in nature[2], one hot encoding of categorical features and the binary label were implemented with pandas cat.codes and LabelEncoder classes, respectively.
+As the variables are multivariate in nature[2], one hot encoding of categorical features and the binary label were implemented with pandas cat.codes and sklearn LabelEncoder classes, respectively.
 
 ## NN Topology and Results Summary
 
