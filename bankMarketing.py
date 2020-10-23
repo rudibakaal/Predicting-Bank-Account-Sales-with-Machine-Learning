@@ -67,7 +67,4 @@ plt.xlabel('Epochs',fontsize=13)
 plt.ylabel('Metrics',fontsize=13)
 plt.show()
 
-plot_model(model, to_file='model_plot.png', show_shapes=True, show_layer_names=True)
-   
-
 
