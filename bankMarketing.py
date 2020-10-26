@@ -22,7 +22,6 @@ ds = ds.drop(['duration'],axis=1)
 ds = ds.reindex(np.random.permutation(ds.index))
 train = ds
 
-
 for x in cat_columns:
     train[x] = train[x].astype('category').cat.codes
 
@@ -37,7 +36,7 @@ label_encoder = LabelEncoder()
 train['y'] = label_encoder.fit_transform(train['y'])
 
 
-train_features = train.values
+train_features = train.drop('y',axis=1)
 train_label = train.pop('y').values
 
 
